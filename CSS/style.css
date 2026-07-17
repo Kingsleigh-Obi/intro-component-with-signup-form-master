@@ -1,0 +1,199 @@
+:root {
+  --clr-red: hsl(0, 100%, 74%);
+  --clr-green: hsl(154, 59%, 51%);
+  --purple-700: hsl(248, 32%, 49%);
+  --gray-900: hsl(249, 10%, 26%);
+  --purple-350: hsl(246, 25%, 77%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../images/bg-intro-desktop.png');
+  background-color: var(--clr-red);
+  background-size: cover;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.main-container {
+  display: flex;
+  width: 80%;
+  gap: 1.25rem;
+}
+
+.main-description {
+  flex: 1;
+  padding: 2rem;
+}
+
+.main-description h1 {
+  width: 50%;
+}
+
+.main-description p {
+  font-weight: 400;
+}
+
+.main-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-form .trial-info {
+  font-size: 0.75rem;
+  background-color: var(--purple-700);
+  text-align: center;
+  width: 80%;
+  padding: 0.625rem 0;
+  border-radius: 5px;
+}
+
+.lighter-info {
+  font-weight: 400;
+}
+
+form {
+  background-color: var(--white);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 0;
+  border-radius: 5px;
+}
+
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  color: var(--gray-900);
+  width: 85%;
+}
+
+input {
+  padding: 0.8125rem;
+  border-radius: 5px;
+  border: 1px solid var(--purple-350);
+}
+
+input::placeholder {
+  font-weight: 700;
+}
+
+button {
+  background-color: var(--clr-green);
+  color: var(--white);
+  font-weight: 700;
+  border: none;
+  padding: 0.625rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.instruction {
+  font-weight: 700;
+  font-size: 0.55rem;
+  text-align: center;
+}
+
+.clicking-button {
+  opacity: 0.2;
+}
+
+.terms-and-condition {
+  color: var(--clr-red);
+  font-weight: 700;
+}
+
+/* For mobile design  */
+@media(max-width: 414px) {
+ 
+  .main-container {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+  }
+
+  .main-description {
+    padding: 0rem;
+    text-align: center;
+  }
+
+  .main-description h1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-form .trial-info {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0.9375rem 0;
+  }
+
+  form {
+    background-color: var(--white);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem 0;
+    border-radius: 5px;
+  }
+
+  .input-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    color: var(--gray-900);
+    width: 85%;
+  }
+
+  input {
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--purple-350);
+  }
+
+  input::placeholder {
+    font-weight: 700;
+  }
+
+  button {
+    background-color: var(--clr-green);
+    color: var(--white);
+    font-weight: 700;
+    border: none;
+    padding: 0.625rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .instruction {
+    font-weight: 700;
+    font-size: 0.55rem;
+    text-align: center;
+  }
+
+  .clicking-button {
+    opacity: 0.2;
+  }
+
+  .terms-and-condition {
+    color: var(--clr-red);
+    font-weight: 700;
+  }
+}
