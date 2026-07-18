@@ -87,6 +87,12 @@ input {
   padding: 0.8125rem;
   border-radius: 5px;
   border: 1px solid var(--purple-350);
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+input:focus {
+  outline: none;
 }
 
 input::placeholder {
@@ -116,6 +122,19 @@ button {
 .terms-and-condition {
   color: var(--clr-red);
   font-weight: 700;
+}
+
+.error-message {
+  display: none;
+}
+
+.error-message.show-error-message {
+  color: var(--clr-red);
+  display: block;
+}
+
+.red-border {
+  border: 1px solid var(--purple-700);
 }
 
 /* For mobile design  */
