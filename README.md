@@ -1,5 +1,12 @@
 # Frontend Mentor -  Intro component with sign up form
 
+![Design preview for the Intro component with sign up form coding challenge](/screenshots/desktop-design.png)
+
+## Welcome! 👋
+
+Thanks for checking out this front-end coding challenge.
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -34,7 +41,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/desktop-design.png)
 
 
 ### Links
