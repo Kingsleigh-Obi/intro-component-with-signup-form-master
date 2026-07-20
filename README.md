@@ -46,8 +46,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Kingsleigh-Obi/intro-component-with-signup-form-master.git)
-- Live Site URL: [Add live site URL here](https://kingsleigh-obi.github.io/intro-component-with-signup-form-master/)
+- Solution URL: [Code](https://github.com/Kingsleigh-Obi/intro-component-with-signup-form-master.git)
+- Live Site URL: [Live Demo](https://kingsleigh-obi.github.io/intro-component-with-signup-form-master/)
 
 
 ## My process
