@@ -131,6 +131,11 @@ button {
 .error-message.show-error-message {
   color: var(--clr-red);
   display: block;
+  /* border: 2px solid black; */
+  margin-top: -5px;
+  font-size: 0.8125rem;
+  text-align: end;
+  font-weight: 400;
 }
 
 .red-border {

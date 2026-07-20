@@ -10,6 +10,7 @@ inputElements.forEach((inputElement) => {
   });
 });
 
+// validating the email 
 const emailField = document.getElementById('email');
 const errorMessage = document.querySelector('.error-message');
 
@@ -18,8 +19,10 @@ emailField.addEventListener('input', () => {
     errorMessage.classList.remove('show-error-message');
   } else {
     errorMessage.classList.add('show-error-message');
-    errorMessage.textContent = 'Please enter a valid email';
+    errorMessage.textContent = 'Looks like this is not an email';
   }
 });
+
+
 
 
